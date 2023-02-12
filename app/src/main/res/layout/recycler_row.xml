@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/profilfoto"
+        android:layout_width="38dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/recyclerKullaniciAdiText"
+        android:layout_width="113dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:text="kullaniciadi"
+        android:textColor="#000000"
+
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <ImageView
+        android:id="@+id/recyclerImageView"
+        android:layout_width="349dp"
+        android:layout_height="204dp"
+        android:layout_marginLeft="30dp"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="84dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/recyclerCommentText"
+        android:layout_width="267dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="75dp"
+        android:padding="5dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="314dp" />
+</LinearLayout>
